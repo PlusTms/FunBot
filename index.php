@@ -1,6 +1,6 @@
 <?php /* Telegram Channel: @NorbertTeam
 @Roonx_Team */
-define('API_KEY','توکن');
+define('API_KEY','t');
 $admin =  "ای دی عددی";
 $update = json_decode(file_get_contents('php://input'));
 $from_id = $update->message->from->id;
